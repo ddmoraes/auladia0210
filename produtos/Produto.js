@@ -10,7 +10,8 @@ const Produto = connection
         descricao : {
             type: Sequelize.TEXT,
             allowNull: false
-        }
+        },
+        
     });
 Produto.sync({force: false});
 module.exports = Produto;
